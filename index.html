@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="nofollow">
+    <meta name="robots" content="nofollow, noindex">
     <meta name="description" content="Йогамарафон в Днепре от фестиваля йоги та музыки АВАТАР">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/vendor/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Йогамарафон в Днепре</title>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
 <body>
     <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+        <symbol id="facebook" viewBox="0 0 48 48">
             <title>Facebook</title>
             <path d="M47.761 24c0 13.121-10.638 23.76-23.758 23.76C10.877 47.76.239 37.121.239 24 .239 10.876 10.877.24 24.003.24 37.123.24 47.761 10.876 47.761 24M20.033 38.85H26.2V24.01h4.163l.539-5.242H26.2v-3.083c0-1.156.769-1.427 1.308-1.427h3.318v-5.09l-4.568-.018c-5.072 0-6.225 3.796-6.225 6.224v3.394H17.1v5.242h2.933v14.84z"></path>
         </symbol>
@@ -20,68 +21,86 @@
             <title>Arrow</title>
             <path d="M19.208 18.592a.995.995 0 0 1-.673-.261L.327 1.74A1 1 0 0 1 1.674.261L19.208 16.24 36.743.261a1 1 0 0 1 1.348 1.479l-18.21 16.592a.999.999 0 0 1-.673.26z"></path>
         </symbol>
+        <symbol id="instagram" viewBox="0 0 30 30">
+            <title>
+                Instagram
+            </title>
+            <path d="M15 11.014a3.986 3.986 0 1 0 .001 7.971A3.986 3.986 0 0 0 15 11.014zm0 6.592A2.604 2.604 0 0 1 12.393 15 2.604 2.604 0 0 1 15 12.394 2.614 2.614 0 0 1 17.607 15 2.604 2.604 0 0 1 15 17.606zm4.385-8.05a.915.915 0 0 0-.92.921c0 .512.407.919.92.919a.914.914 0 0 0 .921-.919.916.916 0 0 0-.921-.921z"></path>
+            <path d="M15.002.15C6.798.15.149 6.797.149 15c0 8.201 6.649 14.85 14.853 14.85 8.199 0 14.85-6.648 14.85-14.85 0-8.203-6.651-14.85-14.85-14.85zm7.664 18.115c0 2.423-1.979 4.401-4.416 4.401h-6.5c-2.438 0-4.417-1.979-4.417-4.386v-6.546c0-2.422 1.978-4.4 4.417-4.4h6.5c2.438 0 4.416 1.978 4.416 4.4v6.531z"></path>
+        </symbol>
+        <symbol id="vk" viewBox="0 0 48 48">
+            <title>
+                VK
+            </title>
+            <path d="M47.761 24c0 13.121-10.639 23.76-23.76 23.76C10.878 47.76.239 37.121.239 24 .239 10.877 10.878.24 24.001.24c13.121 0 23.76 10.637 23.76 23.76m-12.502 4.999c-2.621-2.433-2.271-2.041.89-6.25 1.923-2.562 2.696-4.126 2.45-4.796-.227-.639-1.64-.469-1.64-.469l-4.71.029s-.351-.048-.609.106c-.249.151-.414.505-.414.505s-.742 1.982-1.734 3.669c-2.094 3.559-2.935 3.747-3.277 3.524-.796-.516-.597-2.068-.597-3.171 0-3.449.522-4.887-1.02-5.259-.511-.124-.887-.205-2.195-.219-1.678-.016-3.101.007-3.904.398-.536.263-.949.847-.697.88.31.041 1.016.192 1.388.699.484.656.464 2.131.464 2.131s.282 4.056-.646 4.561c-.632.347-1.503-.36-3.37-3.588-.958-1.652-1.68-3.481-1.68-3.481s-.14-.344-.392-.527c-.299-.222-.722-.298-.722-.298l-4.469.018s-.674-.003-.919.289c-.219.259-.018.752-.018.752s3.499 8.104 7.573 12.23c3.638 3.784 7.764 3.36 7.764 3.36h1.867s.566.113.854-.189c.265-.288.256-.646.256-.646s-.034-2.512 1.129-2.883c1.15-.36 2.624 2.429 4.188 3.497 1.182.812 2.079.633 2.079.633l4.181-.056s2.186-.136 1.149-1.858c-.197-.139-.715-1.269-3.219-3.591"></path>
+        </symbol>
     </svg>
     <header>
-        <nav>
+        <nav class="flex">
             <div class="logo">
-                <a href="https://avatarfest.com.ua/">Avatar fest</a>
-                <img src="assets/images/logo.png" alt="Avatar Fest">
+                <a href="https://avatarfest.com.ua/" target="_blank">
+                    <img src="assets/images/logo.png" alt="Avatar Fest">
+                    Avatar fest
+                </a>
             </div>
-            <ul>
+            <ul class="list-inline">
                 <li>
-                    <a href="#maraphone">О марафоне</a>
+                    <a href="#maraphone" class="scroll_to_target">О марафоне</a>
                 </li>
                 <li>
-                    <a href="#program">Программа</a>
+                    <a href="#program" class="scroll_to_target">Программа</a>
                 </li>
                 <li>
-                    <a href="#masters">О марафоне Программа
+                    <a href="#masters" class="scroll_to_target">Мастера
                 <li>
-                    <a href="#place">Место</a>
+                    <a href="#place" class="scroll_to_target">Место</a>
                 </li>
             </ul>
-            <a href="tel:0734835210">(073) 483 52 10</a>
-            <a href="https://www.facebook.com/events/161597650950830/">
-                <svg>
+            <a href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>
+            <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
+                <svg class="socials">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
                 </svg>
             </a>
-            <ul class="btn-group">
+            <ul class="btn-group list-inline">
                 <li>
-                    <a href="#">Купить билет</a>
+                    <a href="#order" class="scroll_to_target">Купить билет</a>
                 </li>
                 <li>
-                    <a href="#">Заказать звонок</a>
+                    <a href="#order" class="scroll_to_target">Заказать звонок</a>
                 </li>
             </ul>
+        </nav>
+        <div class="transform-c-c align-c">
+            <h1>Йогамарафон в Днепре
+                <small>от фестиваля йоги и музыки АВАТАР</small>
+            </h1>
+            <address>19 марта, с 09:00 до 21:00 <br>Днепр, студия «Dzen», <br>проспект Гагарина, 14</address>
+        </div>
+        <ul class="btn-group list-inline">
+            <li>
+                <a href="#order" class="scroll_to_target">Купить билет</a>
+            </li>
+            <li>
+                <a href="#order" class="scroll_to_target">Заказать звонок</a>
+            </li>
+        </ul>
+        <a href="#event" class="scroll_to_target">
             <svg class="bounce">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
             </svg>
-        </nav>
-        <h1>Йогамарафон в Днепре
-            <small>от фестиваля йоги и музыки АВАТАР</small>
-        </h1>
-        <address>19 марта, с 09:00 до 21:00 <br>Днепр, студия «Dzen», <br>проспект Гагарина, 14
-        </address>
-        <ul class="btn-group">
-            <li>
-                <a href="#">Купить билет</a>
-            </li>
-            <li>
-                <a href="#">Заказать звонок</a>
-            </li>
-        </ul>
+        </a>
     </header>
-    <section class="section green-section align-c">
+    <section class="section green-section align-c" id="event">
         <div class="container">
             <p class="md-title">19 марта Avatar Yoga Festival едет в Днепр!</p>
         </div>
     </section>
-    <section class="section">
+    <section class="section" id="maraphone">
         <div class="container">
             <h3 class="secondary-title">О марафоне</h3>
             <div>
-                <p>Мы продолжаем серию наших йога-марафонов по городам Украины в рамках <a href="https://avatarfest.com.ua/">Avatar Yoga Festival</a> 2017. В прошлый раз Днепр нас встретил очень тепло, надеемся в этот раз будет еще теплее! :)</p>
+                <p>Мы продолжаем серию наших йога-марафонов по городам Украины в рамках <a class="link" href="https://avatarfest.com.ua/" target="_blank">Avatar Yoga Festival</a> 2017. В прошлый раз Днепр нас встретил очень тепло, надеемся в этот раз будет еще теплее! :)</p>
                 <p>19-го марта состоится ЙОГАМАРАФОН ОТ AVATAR YOGA FESTIVAL в Днепре!</p>
                 <p>На этом фестивале соберутся лучшие мастера йоги из Киева, Днепропетровска, Одессы и Харькова. С некоторыми из них вы сможете продолжить увлекательное йога-знакомство на самом фестивале Аватар в августе 2017.</p>
             </div>
@@ -131,60 +150,13 @@
                     </a>
                 </li>
             </ul>
-            <ul class="previous-maraphone">
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone1.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone1.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone2.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone2.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone3.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone3.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone4.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone4.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone5.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone5.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone6.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone6.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone7.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone7.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone8.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone8.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-                <li class="carousel-slider fade">
-                    <a href="assets/images/maraphone9.jpg" data-fancybox="previous-maraphone">
-                        <img src="assets/images/maraphone9.jpg" alt="Maraphone Photo">
-                    </a>
-                </li>
-            </ul>
         </div>
     </section>
     <section class="section masters" id="masters">
         <div class="container">
             <h2 class="section-title">Мастера</h2>
             <ul class="flex">
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master1.jpg" alt="Сергей Пляшечко">
                     <h3 class="sm-title">Сергей Пляшечко</h3>
                     <span>Львов</span>
@@ -206,7 +178,7 @@
                         <li>Комплекс утренней пробуждающей гигиенической гимнастики. (Данный комплекс разработан специально для утренней практики. Это альтернативная версия комплексу «Сурья-намаскар». Его можно выполнять каждый день, через день, и т д. Он не займет более 20 мин, но поможет правильно настроить тело и мозг на рабочий лад.)</li>
                     </ul>
                 </li>
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master2.jpg" alt="Гала Сара и Юра Шкилев">
                     <h3 class="sm-title">Гала Сара и Юра Шкилев</h3>
                     <span>Киев</span>
@@ -218,22 +190,23 @@
                     <p>Одним из важнейших моментов станет эмпатия - со-чувствование партнера.</p>
                     <p>«Быть здесь и сейчас, сохраняя связь с партнером, есть сущность акро-йоги» - слова основателей данного направления.</p>
                 </li>
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master3.jpg" alt="Алена Скворцова">
                     <h3 class="sm-title">Алена Скворцова</h3>
                     <span>Харьков</span>
                     <p>Представляет йога-проэкт «Shanti - профессиональнная медицински обоснованная школа йоги»</p>
                     <p>По образованию врач-реабилитолог, консультант аюрведы (закончила курсы в Индии), основатель Йога-студии Shanti, автор и владелец методик "Shanti school" (обучение инструкторов йоги) и кулинароной школы "Ajurvedic cooking school". Практикует йогу с 2008 года. Основоное направление деятельности: восточные техники и философия оздоровления и омоложения, йога-терапия. Участница тренингов и семинаров в области восстановительной медицины, аюрведы и различных направлений йоги по всему миру.</p>
                 </li>
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master4.jpg" alt="Денис Зикеев">
                     <h3 class="sm-title">Денис Зикеев</h3>
                     <span>Киев</span>
                     <p>Один из самых интересных и заслуженных мастеров хатха йоги и цигун. Автор работ «Тотальное внимание» и «Сексуальная трансформация в практиках развития сознания». Одна из самых известных книг Дениса - "Ничего на потом."</p>
                     <p>Денис Зикеев – самый что ни на есть Дзеновский персонаж. Ключевой своей задачей ставит расширение сознания, посредством работы как с сознанием так и с телом. В работе с телом пользуется такими инструментами как йога и цигун. В своей практике Денис пришел к пониманию неких универсальных принципов по которым устроена жизнь. Понимание это позволяет стать более свободным и осознанным…</p>
-                    <p>Подробно ознакомиться с деятельностью Дениса Вы сможете на сайте — xyoga.infо, здесь также вы сможете прочитать его работы и увидеть затрагиваемые им темы.</p>
+                    <p>Подробно ознакомиться с деятельностью Дениса Вы сможете на сайте —
+                        <a class="link" href="xyoga.infо" target="_blank">xyoga.infо</a>, здесь также вы сможете прочитать его работы и увидеть затрагиваемые им темы.</p>
                 </li>
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master5.jpg" alt="Ирина Воронцова">
                     <h3 class="sm-title">Ирина Воронцова</h3>
                     <span>Киев</span>
@@ -242,13 +215,13 @@
                     <p>Тема семинара: "Современная жизнь и йога"</p>
                     <p>Система, которую я использую, и которой хочу сегодня с вами поделиться, была разработана Андреем Сидерским, специально для применения в условиях современного западного социума. При её создании учитывались и устранялись возможные негативные побочные эффекты, свойственные подходам, которые предназначались для практики в исторических, климатических условиях, весьма отличных от тех, в которых мы с вами живем здесь и сейчас. Y23 – первая система, в которой каждое – даже самое крохотное и незначительное действие – напрямую направленно на развитие способности эффективно осознавать. Что означает научиться управлять своим эмоционально-ментальным фоном, в первую очередь. Состояние внутренней тишины собранности, отрешенности или эмоциональной независимости.… Все это, собственно, и есть «состояние йоги».</p>
                 </li>
-                <li class="col-xs-12 col-sm-6 col-md-4">
+                <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master6.jpg" alt="Наталья Рудь и Наталья Сазанова">
                     <h3 class="sm-title">Наталья Рудь и Наталья Сазанова</h3>
                     <span>Днепр</span>
                     <p>Наташа Рудь одна из ведущих мастеров Днепра, практикует с 2000 года, ученик Шелиндера Неги Мастера Хатха Йоги Школы Свами Шивананда.</p>
                     <p>Основатель и руководитель школы Йога для Друзей с 2009 года.Школа Йоги «Om Shanti» с 2011 года.
-                        <a href="http://ecoyoga.com.ua/">http://ecoyoga.com.ua/</a>
+                        <a class="link" href="http://ecoyoga.com.ua/" target="_blank">http://ecoyoga.com.ua/</a>
                     </p>
                     <p>Преподаватель физических практик в Научно-учебном центре развития сознания «Рост» (Днепр) и в Институте Универсальных Знаний (Москва). А так же, организатор различных социальны и благотворительных мероприятий.</p>
                     <p>Наталья Сазанова звукотерапевт, руководитель Школы целительного и сакрального звука "Песня Души", член Международной Ассоциации Звукотерапевтов, потомственная целительница. Проходила обучение у таких всемирно известных мастеров звука, как Алана Хартсонг, Николай Ооржак, В. Матреницкий. Опыт практической работы с тибетскими чашами - более 4 лет, проведены сотни исцеляющих сеансов.</p>
@@ -256,12 +229,159 @@
             </ul>
         </div>
     </section>
-    <section>
-        <div class="section green-section">
-            <h2 class="section-title">Место проведения</h2>
-            <address> Днепр, <br>студия «Dzen»,<br>проспект Гагарина, 14</address>
+    <section class="flex" id="place">
+        <div class="section green-section col-sm-6-cl">
+           <div class="transform-c-c">
+               <h2 class="section-title">Место проведения</h2>
+               <address> Днепр, <br>студия «Dzen»,<br>проспект Гагарина, 14</address>
+           </div>
         </div>
-        <div id="map" style="width:100%;height:500px"></div>
+        <div class="col-sm-6-cl" id="map"></div>
+    </section>
+    <section class="section yellow-section">
+        <div class="container">
+            <h2 class="section-title">Фотографии предыдущего марафона в Днепре</h2>
+            <ul class="flex carousel tablet">
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone1.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone1.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone2.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone2.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone3.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone3.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone4.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone4.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone5.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone5.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone6.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone6.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone7.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone7.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone8.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone8.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone9.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone9.jpg" alt="Maraphone Photo">
+                    </a>
+                </li>
+            </ul>
+            <ul class="previous-maraphone flex desktop">
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone1.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone1.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone2.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone2.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone3.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone3.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone4.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone4.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone5.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone5.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone6.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone6.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone7.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone7.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone8.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone8.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+                <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
+                    <a href="assets/images/maraphone9.jpg" data-fancybox="previous-maraphone">
+                        <img src="assets/images/maraphone9.jpg" alt="Maraphone Photo" class="transform-c-c">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section green-section align-c">
+        <div class="container col-md-7">
+            <h2 class="section-title">Йога Маркет</h2>
+            <p>Друзья, в рамках фестиваля
+                <a class="underline" href="https://www.facebook.com/events/161597650950830/" target="_blank">Йогамарафон от Avatar Yoga Festival</a> в Днепре пройдет
+                <a class="underline" href="https://www.facebook.com/hashtag/dnepryogamarket" target="_blank">#DneprYogaMarket</a>
+                – событие, в рамках котороо украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя.</p>
+            <p> Форма регистрации для желающих презентовать себя на маркете
+                <a class="underline" href="https://sunriseyogaz.typeform.com/to/gZqqee" target="_blank">https://sunriseyogaz.typeform.com/to/gZqqee</a>
+            </p>
+            <p> У нас есть 5 мест в зоне фуд и корта 10 мест в зоне маркета (эзотерические товары, йога-одежда, хенд-мейд, чебурашки, литература и т.д.</p>
+            <p>Правила участия –
+                <a class="underline" href="http://su0.ru/D355">http://su0.ru/D355</a>
+            </p>
+        </div>
+    </section>
+    <section class="section yellow-section align-c contacts">
+        <div class="container col-md-7">
+            <h2 class="section-title">Контакты</h2>
+            <p>Со всеми вопросами вы можете обратиться к нам по почте
+                <a class="link" href="mailto:in@avatarfest.com.ua">in@avatarfest.com.ua</a>
+                или по телефону
+                <a class="link" href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>.
+            </p>
+            <p>Также не забудьте подписаться на наши странички в соц. сетях:</p>
+            <ul class="list-inline">
+                <li>
+                    <a href="https://www.facebook.com/avatarfest/" target="_blank">
+                        <svg class="socials">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/avatarfest" target="_blank">
+                        <svg class="socials">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vk"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/avatarfest/" target="_blank">
+                        <svg class="socials">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
     <section class="section green-section">
         <div class="container col-md-7">
@@ -285,7 +405,6 @@
         </div>
     </section>
 
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/slick/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/vendor/jquery.fancybox.min.js"></script>
