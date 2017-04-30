@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="nofollow, noindex">
     <meta name="description" content="Йогамарафон в Днепре от фестиваля йоги та музыки АВАТАР">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Йогамарафон в Днепре</title>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -20,6 +20,10 @@
         <symbol id="arrow" viewBox="0 0 38.417 18.592">
             <title>Arrow</title>
             <path d="M19.208 18.592a.995.995 0 0 1-.673-.261L.327 1.74A1 1 0 0 1 1.674.261L19.208 16.24 36.743.261a1 1 0 0 1 1.348 1.479l-18.21 16.592a.999.999 0 0 1-.673.26z"></path>
+        </symbol>
+        <symbol id="slider-arrow" viewBox="0 0 477.175 477.175">
+            <title>Slider arrow</title>
+            <path d="M360.731 229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1 0s-5.3 13.8 0 19.1l215.5 215.5-215.5 215.5c-5.3 5.3-5.3 13.8 0 19.1 2.6 2.6 6.1 4 9.5 4 3.4 0 6.9-1.3 9.5-4l225.1-225.1c5.3-5.2 5.3-13.8.1-19z"/>
         </symbol>
         <symbol id="instagram" viewBox="0 0 30 30">
             <title>
@@ -36,126 +40,84 @@
         </symbol>
     </svg>
     <header>
-        <nav class="flex">
-            <div class="logo">
-                <a href="https://avatarfest.com.ua/" target="_blank">
-                    <img src="assets/images/logo.png" alt="Avatar Fest">
-                    Avatar fest
+        <nav>
+            <div class="container flex">
+                <div class="logo">
+                    <a href="https://avatarfest.com.ua/" target="_blank">
+                        <img src="assets/images/logo.png" alt="Avatar Fest">
+                        Avatar fest
+                    </a>
+                </div>
+                <ul class="list-inline menu">
+                    <li>
+                        <a href="#maraphone" class="scroll_to_target">О марафоне</a>
+                    </li>
+                    <li>
+                        <a href="#program" class="scroll_to_target">Программа</a>
+                    </li>
+                    <li>
+                        <a href="#masters" class="scroll_to_target">Мастера</a>
+                    </li>
+                    <li>
+                        <a href="#place" class="scroll_to_target">Место</a>
+                    </li>
+                </ul>
+                <a href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>
+                <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
+                    <svg class="socials">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                    </svg>
                 </a>
+                <ul class="btn-group list-inline">
+                    <li>
+                        <a href="#order" class="scroll_to_target ticket">Купить билет</a>
+                    </li>
+                    <li>
+                        <a href="#order" class="scroll_to_target call">Заказать звонок</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-inline">
-                <li>
-                    <a href="#maraphone" class="scroll_to_target">О марафоне</a>
-                </li>
-                <li>
-                    <a href="#program" class="scroll_to_target">Программа</a>
-                </li>
-                <li>
-                    <a href="#masters" class="scroll_to_target">Мастера
-                <li>
-                    <a href="#place" class="scroll_to_target">Место</a>
-                </li>
-            </ul>
-            <a href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>
-            <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
-                <svg class="socials">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
-                </svg>
-            </a>
+        </nav>
+        <div class="transform-c-c align-c description">
+            <h1>Йогамарафон в Днепре</h1>
+            <small>от фестиваля йоги и музыки АВАТАР</small>
+            <address>19 марта, с 09:00 до 21:00 <br>Днепр, студия «Dzen», <br>проспект Гагарина, 14</address>
             <ul class="btn-group list-inline">
                 <li>
-                    <a href="#order" class="scroll_to_target">Купить билет</a>
+                    <a href="#order" class="scroll_to_target ticket">Купить билет</a>
                 </li>
                 <li>
-                    <a href="#order" class="scroll_to_target">Заказать звонок</a>
+                    <a href="#order" class="scroll_to_target call">Заказать звонок</a>
                 </li>
             </ul>
-        </nav>
-        <div class="transform-c-c align-c">
-            <h1>Йогамарафон в Днепре
-                <small>от фестиваля йоги и музыки АВАТАР</small>
-            </h1>
-            <address>19 марта, с 09:00 до 21:00 <br>Днепр, студия «Dzen», <br>проспект Гагарина, 14</address>
         </div>
-        <ul class="btn-group list-inline">
-            <li>
-                <a href="#order" class="scroll_to_target">Купить билет</a>
-            </li>
-            <li>
-                <a href="#order" class="scroll_to_target">Заказать звонок</a>
-            </li>
-        </ul>
-        <a href="#event" class="scroll_to_target">
+        <a href="#maraphone" class="scroll_to_target">
             <svg class="bounce">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
             </svg>
         </a>
     </header>
-    <section class="section green-section align-c" id="event">
-        <div class="container">
-            <p class="md-title">19 марта Avatar Yoga Festival едет в Днепр!</p>
-        </div>
-    </section>
     <section class="section" id="maraphone">
-        <div class="container">
-            <h3 class="secondary-title">О марафоне</h3>
-            <div>
+        <div class="container flex">
+            <div class="col-md-4">
+                <h3 class="secondary-title">О марафоне</h3>
+            </div>
+            <div class="col-md-8">
                 <p>Мы продолжаем серию наших йога-марафонов по городам Украины в рамках <a class="link" href="https://avatarfest.com.ua/" target="_blank">Avatar Yoga Festival</a> 2017. В прошлый раз Днепр нас встретил очень тепло, надеемся в этот раз будет еще теплее! :)</p>
                 <p>19-го марта состоится ЙОГАМАРАФОН ОТ AVATAR YOGA FESTIVAL в Днепре!</p>
                 <p>На этом фестивале соберутся лучшие мастера йоги из Киева, Днепропетровска, Одессы и Харькова. С некоторыми из них вы сможете продолжить увлекательное йога-знакомство на самом фестивале Аватар в августе 2017.</p>
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section green-section align-c event" id="event">
         <div class="container">
-            <ul class="carousel">
-                <li class="fade">
-                    <a href="assets/images/festival1.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival1.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival2.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival2.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival3.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival3.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival4.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival4.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival5.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival5.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival6.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival6.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival7.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival7.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-                <li class="fade">
-                    <a href="assets/images/festival8.jpg" data-fancybox="festival">
-                        <img src="assets/images/festival8.jpg" alt="Avatar Yoga Fest">
-                    </a>
-                </li>
-            </ul>
+            <p class="md-title">19 марта Avatar Yoga Festival едет в Днепр!</p>
         </div>
     </section>
     <section class="section masters" id="masters">
         <div class="container">
             <h2 class="section-title">Мастера</h2>
-            <ul class="flex">
+            <ul class="flex list-inline">
                 <li class="col-xs-10 col-sm-6 col-md-4">
                     <img src="assets/images/master1.jpg" alt="Сергей Пляшечко">
                     <h3 class="sm-title">Сергей Пляшечко</h3>
@@ -229,14 +191,14 @@
             </ul>
         </div>
     </section>
-    <section class="flex" id="place">
+    <section class="flex map-section" id="place">
         <div class="section green-section col-sm-6-cl">
-           <div class="transform-c-c">
+           <div class="transform-c-c align-c">
                <h2 class="section-title">Место проведения</h2>
                <address> Днепр, <br>студия «Dzen»,<br>проспект Гагарина, 14</address>
            </div>
         </div>
-        <div class="col-sm-6-cl" id="map"></div>
+        <div class="col-sm-6-cl map" id="map"></div>
     </section>
     <section class="section yellow-section">
         <div class="container">
@@ -353,6 +315,63 @@
             </p>
         </div>
     </section>
+    <section class="section target">
+        <h2 class="section-title">Avatar Yoga Festival</h2>
+        <div class="container flex">
+            <div class="col-sm-6">
+                <p>Международный фестиваль йоги Avatar Yoga Festival ежегодно проходит на берегу Черного Моря, под Одессой.</p>
+                <p>В Украину съезжаются лучшие преподаватели разных стран, а также лучшие мастера йоги Украины.</p>
+                <p>Наша миссия — мир! Мы очень хотим мира и улыбок всем землянам! Сейчас, как в конце шестидесятых, снова важно и нужно с помощью фестивалей объединять людей, распространять мирные и добрые намерения и знания, практики, побуждающие дружить и любить. Это наш Йога-Вудсток.</p>
+                <p>Мы приглашаем йогинов из разных стран, как мастеров, так и гостей, опытных, так и совсем начинающих.</p>
+                <p>В этом году Avatar Yoga Festival продлится целых 9 дней с 3 по 11 августа!</p>
+                <p>Все подробности тут: <br>
+                    <a href="https://www.facebook.com/avatarfest" target="_blank" class="link">https://www.facebook.com/avatarfest</a>
+                </p>
+            </div>
+            <ul class="carousel col-sm-6-cl">
+                <li class="fade">
+                    <a href="assets/images/festival1.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival1.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival2.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival2.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival3.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival3.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival4.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival4.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival5.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival5.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival6.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival6.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival7.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival7.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+                <li class="fade">
+                    <a href="assets/images/festival8.jpg" data-fancybox="festival">
+                        <img src="assets/images/festival8.jpg" alt="Avatar Yoga Fest">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
     <section class="section yellow-section align-c contacts">
         <div class="container col-md-7">
             <h2 class="section-title">Контакты</h2>
@@ -407,7 +426,7 @@
 
     <script src="assets/vendor/slick/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/vendor/jquery.fancybox.min.js"></script>
+    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYysAY2nIouqL7ivA1nePObhhJk6PklZA&callback=myMap"></script>
 </body>
 </html>
