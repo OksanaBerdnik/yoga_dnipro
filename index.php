@@ -627,5 +627,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYysAY2nIouqL7ivA1nePObhhJk6PklZA&callback=myMap"></script>
+    <script type="text/javascript" src="https://app.mailerlite.com/data/webforms/247867/h4k5z7.js?v4"></script>
 </body>
 </html>
