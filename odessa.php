@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Йогамарафон в Одессе</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Йогамарафон в Одессе">
+    <meta name="twitter:url" content="http://marathons.avatarfest.com.ua/odessa"/>
+    <meta name="twitter:title" content="Йогамарафон в Одессе">
+    <meta name="twitter:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
+    <meta name="twitter:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg">
+
+    <meta property="og:title" content="Йогамарафон в Одессе">
+    <meta property="og:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg"/>
+    <meta property="og:url" content="http://marathons.avatarfest.com.ua/odessa"/>
+
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
 <body onload="myMap(46.442966, 30.749581, '«ЙОГАДОМ», г. Одесса, ул. Маршала Говорова 18а')">
@@ -46,7 +59,9 @@
 <div class="overlay"></div>
 <div id="order-call" class="popup">
     <h2 class="section-title">Заказать звонок</h2>
-    <form>
+    <form method="GET" class="order-email">
+        <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
+        <input type="hidden" value="Заказ звонка (Одесса)" name="subject">
         <ul>
             <li>
                 <input class="input" type="text" name="name" placeholder="Имя" required>
@@ -475,7 +490,9 @@
             </li>
         </ul>
         <p class="align-c">Заполните, пожалуйста, форму ниже для покупки билета</p>
-        <form>
+        <form method="GET" class="order-email">
+            <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
+            <input type="hidden" value="Заказ билетов (Одесса)" name="subject">
             <ul>
                 <li>
                     <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
