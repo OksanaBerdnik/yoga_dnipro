@@ -11,7 +11,7 @@
     <title>Йогамарафон в Днепре</title>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
-<body>
+<body onload="myMap(48.449075, 35.057585, 'Днепр, студия «Dzen», проспект Гагарина, 14')">
     <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
         <symbol id="facebook" viewBox="0 0 48 48">
             <title>Facebook</title>
@@ -212,7 +212,7 @@
             <h2 class="section-title">Мастера</h2>
             <ul class="flex list-inline">
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master1.jpg" alt="Сергей Пляшечко">
+                    <img src="assets/images/dnipro-masters/master1.jpg" alt="Сергей Пляшечко">
                     <h3 class="sm-title">Сергей Пляшечко</h3>
                     <span>Львов</span>
                     <p>Открывать фестиваль будет Сергей Пляшечко — ведущий йога-тичер западной столицы с огромным многолетним опытом личной и преподавательской практики, руководитель Львовской йога-студии, один из лучших преподавателей Украины.</p>
@@ -234,7 +234,7 @@
                     </ul>
                 </li>
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master2.jpg" alt="Гала Сара и Юра Шкилев">
+                    <img src="assets/images/dnipro-masters/master2.jpg" alt="Гала Сара и Юра Шкилев">
                     <h3 class="sm-title">Гала Сара и Юра Шкилев</h3>
                     <span>Киев</span>
                     <p>Галина Sara — преподаватель йоги в стиле виньяса флоу и акройоги. Сертифицирована Международным йога альянсом по стандарту RYT 200. Акройоге обучалась у преподавателей с мировыми именами: Lux SeattleAcro (Америка), Yohann Guichard (Франция), Ярослав Туа (Россия) и др.</p>
@@ -246,14 +246,14 @@
                     <p>«Быть здесь и сейчас, сохраняя связь с партнером, есть сущность акро-йоги» - слова основателей данного направления.</p>
                 </li>
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master3.jpg" alt="Алена Скворцова">
+                    <img src="assets/images/dnipro-masters/master3.jpg" alt="Алена Скворцова">
                     <h3 class="sm-title">Алена Скворцова</h3>
                     <span>Харьков</span>
                     <p>Представляет йога-проэкт «Shanti - профессиональнная медицински обоснованная школа йоги»</p>
                     <p>По образованию врач-реабилитолог, консультант аюрведы (закончила курсы в Индии), основатель Йога-студии Shanti, автор и владелец методик "Shanti school" (обучение инструкторов йоги) и кулинароной школы "Ajurvedic cooking school". Практикует йогу с 2008 года. Основоное направление деятельности: восточные техники и философия оздоровления и омоложения, йога-терапия. Участница тренингов и семинаров в области восстановительной медицины, аюрведы и различных направлений йоги по всему миру.</p>
                 </li>
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master4.jpg" alt="Денис Зикеев">
+                    <img src="assets/images/dnipro-masters/master4.jpg" alt="Денис Зикеев">
                     <h3 class="sm-title">Денис Зикеев</h3>
                     <span>Киев</span>
                     <p>Один из самых интересных и заслуженных мастеров хатха йоги и цигун. Автор работ «Тотальное внимание» и «Сексуальная трансформация в практиках развития сознания». Одна из самых известных книг Дениса - "Ничего на потом."</p>
@@ -262,7 +262,7 @@
                         <a class="link" href="xyoga.infо" target="_blank">xyoga.infо</a>, здесь также вы сможете прочитать его работы и увидеть затрагиваемые им темы.</p>
                 </li>
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master5.jpg" alt="Ирина Воронцова">
+                    <img src="assets/images/dnipro-masters/master5.jpg" alt="Ирина Воронцова">
                     <h3 class="sm-title">Ирина Воронцова</h3>
                     <span>Киев</span>
                     <p>Ученица и последователь школы Андрея Сидерского. Практикует гимнастику йогов с 1996г. С 1998г. практикует, преподает и параллельно повышает квалификацию в гимнастике йогов с помощью методики "YOGA 23 (Y23)". В 2003г. – призер чемпионата мира в Португалии по артистик-йоге и олимпик-йоге.</p>
@@ -271,7 +271,7 @@
                     <p>Система, которую я использую, и которой хочу сегодня с вами поделиться, была разработана Андреем Сидерским, специально для применения в условиях современного западного социума. При её создании учитывались и устранялись возможные негативные побочные эффекты, свойственные подходам, которые предназначались для практики в исторических, климатических условиях, весьма отличных от тех, в которых мы с вами живем здесь и сейчас. Y23 – первая система, в которой каждое – даже самое крохотное и незначительное действие – напрямую направленно на развитие способности эффективно осознавать. Что означает научиться управлять своим эмоционально-ментальным фоном, в первую очередь. Состояние внутренней тишины собранности, отрешенности или эмоциональной независимости.… Все это, собственно, и есть «состояние йоги».</p>
                 </li>
                 <li class="col-xs-10 col-sm-6 col-md-4">
-                    <img src="assets/images/master6.jpg" alt="Наталья Рудь и Наталья Сазанова">
+                    <img src="assets/images/dnipro-masters/master6.jpg" alt="Наталья Рудь и Наталья Сазанова">
                     <h3 class="sm-title">Наталья Рудь и Наталья Сазанова</h3>
                     <span>Днепр</span>
                     <p>Наташа Рудь одна из ведущих мастеров Днепра, практикует с 2000 года, ученик Шелиндера Неги Мастера Хатха Йоги Школы Свами Шивананда.</p>
@@ -298,95 +298,95 @@
             <h2 class="section-title">Фотографии предыдущего марафона в Днепре</h2>
             <ul class="flex carousel tablet">
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon1.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon1.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon1.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon1.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon2.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon2.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon2.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon2.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon3.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon3.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon3.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon3.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon4.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon4.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon4.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon4.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon5.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon5.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon5.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon5.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon6.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon6.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon6.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon6.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon7.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon7.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon7.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon7.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon8.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon8.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon8.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon8.jpg" alt="marathon Photo">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon9.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon9.jpg" alt="marathon Photo">
+                    <a href="assets/images/dnipro-marathon/marathon9.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon9.jpg" alt="marathon Photo">
                     </a>
                 </li>
             </ul>
             <ul class="previous-marathon flex desktop">
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon1.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon1.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon1.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon1.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon2.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon2.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon2.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon2.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon3.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon3.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon3.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon3.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon4.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon4.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon4.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon4.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon5.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon5.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon5.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon5.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon6.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon6.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon6.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon6.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon7.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon7.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon7.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon7.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon8.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon8.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon8.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon8.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
                 <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                    <a href="assets/images/marathon9.jpg" data-fancybox="previous-marathon">
-                        <img src="assets/images/marathon9.jpg" alt="marathon Photo" class="transform-c-c">
+                    <a href="assets/images/dnipro-marathon/marathon9.jpg" data-fancybox="previous-marathon">
+                        <img src="assets/images/dnipro-marathon/marathon9.jpg" alt="marathon Photo" class="transform-c-c">
                     </a>
                 </li>
             </ul>
@@ -394,7 +394,7 @@
     </section>
     <section class="section green-section align-c">
         <h2 class="section-title">Йога Маркет</h2>
-        <div class="sm-container">
+        <div class="md-container">
             <p>Друзья, в рамках фестиваля
                 <a class="underline" href="https://www.facebook.com/events/161597650950830/" target="_blank">Йогамарафон от Avatar Yoga Festival</a> в Днепре пройдет
                 <a class="underline" href="https://www.facebook.com/hashtag/dnepryogamarket" target="_blank">#DneprYogaMarket</a>
@@ -402,9 +402,9 @@
             <p> Форма регистрации для желающих презентовать себя на маркете
                 <a class="underline" href="https://sunriseyogaz.typeform.com/to/gZqqee" target="_blank">https://sunriseyogaz.typeform.com/to/gZqqee</a>
             </p>
-            <p> У нас есть 5 мест в зоне фуд и корта 10 мест в зоне маркета (эзотерические товары, йога-одежда, хенд-мейд, чебурашки, литература и т.д.</p>
+            <p> У нас есть 5 мест в зоне фуд и корта 10 мест в зоне маркета (эзотерические товары, йога-одежда, хенд-мейд, чебурашки, литература и т.д.)</p>
             <p>Правила участия –
-                <a class="underline" href="http://su0.ru/D355">http://su0.ru/D355</a>
+                <a class="underline" href="http://su0.ru/D355" target="_blank">http://su0.ru/D355</a>
             </p>
         </div>
     </section>
