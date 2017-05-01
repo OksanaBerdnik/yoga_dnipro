@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="nofollow, noindex">
-    <meta name="description" content="Йогамарафон в Днепре от фестиваля йоги та музыки АВАТАР">
+    <meta name="description" content="Йогамарафон в Минске от фестиваля йоги та музыки АВАТАР">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Йогамарафон в Минске</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Йогамарафон в Минске">
+    <meta name="twitter:url" content="http://marathons.avatarfest.com.ua/minsk"/>
+    <meta name="twitter:title" content="Йогамарафон в Минске">
+    <meta name="twitter:description" content="Йогамарафон в Минске от фестиваля йоги та музыки АВАТАР">
+    <meta name="twitter:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg">
+
+    <meta property="og:title" content="Йогамарафон в Минске">
+    <meta property="og:description" content="Йогамарафон в Минске от фестиваля йоги та музыки АВАТАР">
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg"/>
+    <meta property="og:url" content="http://marathons.avatarfest.com.ua/minsk"/>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
 <body onload="myMap(53.889636, 27.574559, 'Минск, студия «Yoga Place», ул. Октябрьская, 16')">
@@ -47,7 +59,9 @@
 <div class="overlay"></div>
 <div id="order-call" class="popup">
     <h2 class="section-title">Заказать звонок</h2>
-    <form>
+    <form method="GET" class="order-email">
+        <input type="hidden" value="Заказ звонка (Минск)" name="subject">
+        <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
         <ul>
             <li>
                 <input class="input" type="text" name="name" placeholder="Имя" required>
@@ -110,7 +124,7 @@
                 </li>
             </ul>
             <a class="phone" href="tel:+375291607300">+375&nbsp;29&nbsp;160&nbsp;73&nbsp;00</a>
-            <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
+            <a href="https://www.facebook.com/events/1616738208619039/" target="_blank">
                 <svg class="socials">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
                 </svg>
@@ -291,9 +305,9 @@
                 <p>После встречи со своей Шакти — Варварой, полностью изменил свою практику, нацелив ее на объединение двух основных энергетических принципов Вселенной — потоков энергии Шивы (мужской) и Шакти (женской), достижение состояния целостности.</p>
                 <p>Соучредитель йога-проекта «МОКША».</p>
                 <p>На данный момент, я организовываю информационно-практические семинары, лекции, занятия и путешествия в Украине, России, Индии, Таиланду, Индонезии. Работаю над организацией сети йога-центров по всей Украине и обучении инструкторов. И, конечно же, – бесконечно учусь у всего окружающего мира!</p>
-                <h4>Учителя:</h4>
+                <p>Учителя:</p>
                 <ul>
-                    <li>Я обучался у большинства известных мастеров хатха-йоги Украины и СНГ. Позже, когда решил „глубже" нырнуть в йогу, нашел своего Сат-Гуру (Коренного Учителя) — Махайога Пайлота Баба Джи (орден «Джуна Акхара») и получил у него гуру-дикшу и карма-саньясу (семейную саньясу).                    </li>
+                    <li>Я обучался у большинства известных мастеров хатха-йоги Украины и СНГ. Позже, когда решил „глубже" нырнуть в йогу, нашел своего Сат-Гуру (Коренного Учителя) — Махайога Пайлота Баба Джи (орден «Джуна Акхара») и получил у него гуру-дикшу и карма-саньясу (семейную саньясу).</li>
                     <li>Ашрамы и учителя, где я получичил посвящение в практику: Шибенду Лахири (традиция Лахири Махасайя); Анандадевананда Сарасвати (г. Ришикеш), ашрам Сатчитананда Ганапати Свамиджи (Майсур, традиция «Датта-крийя»), Даянанда Пури (г. Ришикеш, орден «Джуна Акхара»), ашрам Шри Рамана Махарши (г. Тируваннамалай), ашрам Ма Анандамаи (г.Валликау, Керала), Муджи (нео-адвайта), и у многих других.</li>
                     <li>Являюсь сертифицированным инструктором тайского фут-массажа, традиционного тайского массажа, релаксационного тайского массажа (Школа Тайского массажа Роберта Илинскаса).</li>
                 </ul>
@@ -316,7 +330,8 @@
                 <span>Киев, Украина</span>
                 <p>Андрей Дидык - один из ведущих преподавателей столицы, автор видео диска "ЙОГА - Геометрия Формы".</p>
                 <p>"В детстве и юношестве занимался пешеходным и горным туризмом, скалолазанием. Слово "йога" было мне незнакомо до 3-го курса института. Тогда случилось "нечто", что вынудило меня заняться поиском. Нет - я был вполне здоров физически, просто вдруг все стало непонятно... Тогда я и нашел йогу. Это было начало 90-х. В то время на территории СНГ было только два известных практика - Сидерский А.В. и Лаппа А.В. Несколько семинаров, много самостоятельной практики, позже - регулярные занятия у Зенченко Толика. На преподавание я решился только в 2000 году - для клуба киевских фридайверов. А моей профессией это стало только в 2005, когда я возглавил первую в Киеве студию йоги А.В.Сидерского. С тех пор преподаю регулярно в группах и на выездных семинарах. Я все время в поиске. В поиске эффективности в практике. Если уж тратить время, то тратить его с максимальной отдачей и результатом. Все что я преподаю - проверено на личном опыте и глубоко осмысленно. У меня нет стиля, но есть концепция, которая применима в любом стиле и направлении. Стиль может ограничивать, концепцию можно развернуть в любом виде и любой форме.</p>
-                <p>Мой девиз: <blockquote>"Форма проявляет содержание, Содержание порождает форму"</blockquote>.</p>
+                <p>Мой девиз:</p>
+                <blockquote>"Форма проявляет содержание, Содержание порождает форму".</blockquote>
             </li>
         </ul>
     </div>
@@ -486,7 +501,7 @@
     <div class="md-container">
         <p>Друзья, в рамках фестиваля
             <a class="underline" href="https://www.facebook.com/events/1616738208619039/" target="_blank">Йогамарафон от Avatar Yoga Festival</a>
-            в Днепре пройдет #MinskYogaMarket – событие, в рамках котороо украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя.</p>
+            в Минске пройдет #MinskYogaMarket – событие, в рамках котороо украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя.</p>
         <p> Форма регистрации для желающих презентовать себя на маркете
             <a class="underline" href="https://sunriseyogaz.typeform.com/to/DD0hkb" target="_blank">https://sunriseyogaz.typeform.com/to/DD0hkb</a>
         </p>
@@ -556,19 +571,7 @@
 <section class="section yellow-section">
     <h2 class="section-title container">Подпишись,чтобы получить памятку участника и программу на почту</h2>
     <div class="sm-container">
-        <form>
-            <ul>
-                <li>
-                    <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
-                </li>
-                <li>
-                    <input class="input" type="email" name="email" placeholder="Введите ваш email *" required>
-                </li>
-                <li>
-                    <input class="submit" type="submit" value="Подписаться">
-                </li>
-            </ul>
-        </form>
+        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/344383/g4t7r2.js?v7"></script>
     </div>
 </section>
 <section class="section" id="order">
@@ -577,19 +580,19 @@
         <p class="align-c">КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО - 40 билетов!</p>
         <ul class="flex list-inline offer">
             <li class="col-sm-4 col-xs-10">
-                <p class="title">«РАННЯЯ ПТАШКА 1 день» до 1-го мая</p>
+                <p class="title">«РАННЯЯ ПТАШКА 1 день» <br> до 1-го мая</p>
                 <p class="price">60 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">«РАННЯЯ ПТАШКА 2 дня» до 1-го мая</p>
+                <p class="title">«РАННЯЯ ПТАШКА 2 дня» <br> до 1-го мая</p>
                 <p class="price">80 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">С 1-го по 20 мая 1 ДЕНЬ</p>
+                <p class="title">С 1-го по 20 мая <br> 1 ДЕНЬ</p>
                 <p class="price">80 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">С 1-го по 20 мая 2 ДНЯ</p>
+                <p class="title">С 1-го по 20 мая <br> 2 ДНЯ</p>
                 <p class="price">100 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
@@ -598,7 +601,9 @@
             </li>
         </ul>
         <p class="align-c">Заполните, пожалуйста, форму ниже для покупки билета</p>
-        <form>
+        <form method="GET" class="order-email">
+            <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
+            <input type="hidden" value="Заказ билетов (Минск)" name="subject">
             <ul>
                 <li>
                     <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
@@ -626,14 +631,14 @@
             <h4 class="sm-title">Минск</h4>
             <ul>
                 <li>
-                    <a href="tel:+375291607300">+375&nbsp;29&nbsp;160&nbsp;73&nbsp;00 (студия YogaPlace)</a>
+                    <a href="tel:+375291607300" class="link">+375&nbsp;29&nbsp;160&nbsp;73&nbsp;00</a> (студия YogaPlace)
                 </li>
                 <li>
-                    <a href="tel:+380639229107">+38&nbsp;(063)&nbsp;9229107 (Ярослава)</a>
+                    <a href="tel:+380639229107" class="link">+38&nbsp;(063)&nbsp;922&nbsp;91&nbsp;07</a> (Ярослава)
                 </li>
             </ul>
             <h3 class="sm-title">Киев</h3>
-            <a href="tel:+380734835210">+38&nbsp;(073)&nbsp;483&nbsp;52&nbsp;10</a>
+            <a href="tel:+380734835210" class="link">+38&nbsp;(073)&nbsp;483&nbsp;52&nbsp;10</a>
         </address>
         <p>Также не забудьте подписаться на наши странички в соц. сетях:</p>
         <ul class="list-inline">
