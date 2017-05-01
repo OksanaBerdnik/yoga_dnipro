@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="nofollow, noindex">
-    <meta name="description" content="Йогамарафон в Днепре от фестиваля йоги та музыки АВАТАР">
+    <meta name="description" content="Йогамарафон в Минске от фестиваля йоги та музыки АВАТАР">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
@@ -110,7 +110,7 @@
                 </li>
             </ul>
             <a class="phone" href="tel:+375291607300">+375&nbsp;29&nbsp;160&nbsp;73&nbsp;00</a>
-            <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
+            <a href="https://www.facebook.com/events/1616738208619039/" target="_blank">
                 <svg class="socials">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
                 </svg>
@@ -486,7 +486,7 @@
     <div class="md-container">
         <p>Друзья, в рамках фестиваля
             <a class="underline" href="https://www.facebook.com/events/1616738208619039/" target="_blank">Йогамарафон от Avatar Yoga Festival</a>
-            в Днепре пройдет #MinskYogaMarket – событие, в рамках котороо украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя.</p>
+            в Минске пройдет #MinskYogaMarket – событие, в рамках котороо украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя.</p>
         <p> Форма регистрации для желающих презентовать себя на маркете
             <a class="underline" href="https://sunriseyogaz.typeform.com/to/DD0hkb" target="_blank">https://sunriseyogaz.typeform.com/to/DD0hkb</a>
         </p>
@@ -556,19 +556,7 @@
 <section class="section yellow-section">
     <h2 class="section-title container">Подпишись,чтобы получить памятку участника и программу на почту</h2>
     <div class="sm-container">
-        <form>
-            <ul>
-                <li>
-                    <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
-                </li>
-                <li>
-                    <input class="input" type="email" name="email" placeholder="Введите ваш email *" required>
-                </li>
-                <li>
-                    <input class="submit" type="submit" value="Подписаться">
-                </li>
-            </ul>
-        </form>
+        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/344383/g4t7r2.js?v7"></script>
     </div>
 </section>
 <section class="section" id="order">
@@ -577,19 +565,19 @@
         <p class="align-c">КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО - 40 билетов!</p>
         <ul class="flex list-inline offer">
             <li class="col-sm-4 col-xs-10">
-                <p class="title">«РАННЯЯ ПТАШКА 1 день» до 1-го мая</p>
+                <p class="title">«РАННЯЯ ПТАШКА 1 день» <br> до 1-го мая</p>
                 <p class="price">60 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">«РАННЯЯ ПТАШКА 2 дня» до 1-го мая</p>
+                <p class="title">«РАННЯЯ ПТАШКА 2 дня» <br> до 1-го мая</p>
                 <p class="price">80 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">С 1-го по 20 мая 1 ДЕНЬ</p>
+                <p class="title">С 1-го по 20 мая <br> 1 ДЕНЬ</p>
                 <p class="price">80 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">С 1-го по 20 мая 2 ДНЯ</p>
+                <p class="title">С 1-го по 20 мая <br> 2 ДНЯ</p>
                 <p class="price">100 руб</p>
             </li>
             <li class="col-sm-4 col-xs-10">

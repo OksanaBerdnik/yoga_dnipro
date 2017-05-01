@@ -42,7 +42,6 @@
             <path d="M24 3.125c11.511 0 20.875 9.364 20.875 20.875S35.511 44.875 24 44.875 3.125 35.511 3.125 24 12.489 3.125 24 3.125m0-3C10.814.125.125 10.814.125 24S10.814 47.875 24 47.875 47.875 37.186 47.875 24 37.186.125 24 .125z"></path>
             <path d="M25.5 36.033a1.5 1.5 0 1 1-3 0V16.87l-7.028 7.061a1.497 1.497 0 0 1-2.121.005 1.5 1.5 0 0 1-.005-2.121l9.591-9.637A1.498 1.498 0 0 1 24 11.736h.001c.399 0 .783.16 1.063.443l9.562 9.637a1.5 1.5 0 0 1-2.129 2.114l-6.994-7.049-.003 19.152z"></path>
         </svg>
-
     </svg>
     <div class="overlay"></div>
     <div id="order-call" class="popup">
@@ -468,19 +467,7 @@
     <section class="section yellow-section">
         <h2 class="section-title container">Подпишись,чтобы получить памятку участника и программу на почту</h2>
         <div class="sm-container">
-            <form>
-                <ul>
-                    <li>
-                        <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
-                    </li>
-                    <li>
-                        <input class="input" type="email" name="email" placeholder="Введите ваш email *" required>
-                    </li>
-                    <li>
-                        <input class="submit" type="submit" value="Подписаться">
-                    </li>
-                </ul>
-            </form>
+            <script type="text/javascript" src="//app.mailerlite.com/data/webforms/247867/h4k5z7.js?v4"></script>
         </div>
     </section>
     <section class="section" id="order">
@@ -564,7 +551,9 @@
                 <dt class="sm-title">Где можно будет оставить верхнюю одежду и переодеться?</dt>
                 <dd>Для гостей Йогамарафона будут организованы гардероб для верхней одежды и раздевалки (мужская и женская), где вы сможете переодеться в удобную одежду для практики. Обратите внимание, что организаторы Йогамарафона не отвечают за сохранность ваших вещей.</dd>
                 <dt class="sm-title">Могу ли я проводить фото и видео-съемку?</dt>
-                <dd>Да, согласовав формат съемки с организаторами, свяжитесь с нами.</dd>
+                <dd>Да, согласовав формат съемки с организаторами,
+                    <a class="scroll_to_target" href="#contacts">свяжитесь с нами</a>.
+                </dd>
                 <dt class="sm-title">В какое время мне нужно быть на месте?</dt>
                 <dd>На марафон вам нужно прийти за 30 минут до начала, чтобы успеть пройти регистрацию, получить браслет и переодеться.</dd>
             </dl>
@@ -627,6 +616,5 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYysAY2nIouqL7ivA1nePObhhJk6PklZA&callback=myMap"></script>
-    <script type="text/javascript" src="https://app.mailerlite.com/data/webforms/247867/h4k5z7.js?v4"></script>
 </body>
 </html>
