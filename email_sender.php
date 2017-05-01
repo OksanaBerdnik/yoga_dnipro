@@ -7,9 +7,9 @@
                         <title>Заявка / FK /'.$subject.'</title>
                     </head>
                     <body>
-                        <p><b>Имя:</b> '.$_POST['name'].'</p>
-                        <p><b>Телефон:</b> '.$_POST['phone'].'</p>  
-                        <p><b>Email:</b> '.$_POST['email'].'</p>                                   
+                        <p><b>Имя:</b> '.$_GET['name'].'</p>
+                        <p><b>Телефон:</b> '.$_GET['phone'].'</p>  
+                        <p><b>Email:</b> '.$_GET['email'].'</p>                                   
                     </body>
                 </html>'; //Текст нащего сообщения можно использовать HTML теги
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
