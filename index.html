@@ -44,9 +44,48 @@
         </svg>
 
     </svg>
+    <div class="overlay"></div>
+    <div id="order-call" class="popup">
+        <h2 class="section-title">Заказать звонок</h2>
+        <form action="#">
+            <ul>
+                <li>
+                    <input class="input" type="text" name="name" placeholder="Имя" required>
+                </li>
+                <li>
+                    <input class="input" type="tel" name="phone" placeholder="Телефон" required>
+                </li>
+                <li>
+                    <input class="submit" type="submit" value="Отправить">
+                </li>
+            </ul>
+        </form>
+    </div>
     <header>
+        <button type="button" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul class="mobile-menu">
-            <li></li>
+            <li>
+                <a href="#marathon" class="scroll_to_target">О марафоне</a>
+            </li>
+            <li>
+                <a href="#program" class="scroll_to_target">Программа</a>
+            </li>
+            <li>
+                <a href="#masters" class="scroll_to_target">Мастера</a>
+            </li>
+            <li>
+                <a href="#place" class="scroll_to_target">Место</a>
+            </li>
+            <li>
+                <a href="#order" class="scroll_to_target">Купить билет</a>
+            </li>
+            <li>
+                <a href="#contacts" class="scroll_to_target">Контакты</a>
+            </li>
         </ul>
         <nav>
             <div class="container flex">
@@ -70,7 +109,7 @@
                         <a href="#place" class="scroll_to_target">Место</a>
                     </li>
                 </ul>
-                <a href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>
+                <a class="phone" href="tel:0734835210">(073)&nbsp483&nbsp52&nbsp10</a>
                 <a href="https://www.facebook.com/events/161597650950830/" target="_blank">
                     <svg class="socials">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
@@ -81,7 +120,7 @@
                         <a href="#order" class="scroll_to_target ticket">Купить билет</a>
                     </li>
                     <li>
-                        <a href="#order" class="scroll_to_target call">Заказать звонок</a>
+                        <a href="#" data-fancybox data-src="#order-call" class="call">Заказать звонок</a>
                     </li>
                 </ul>
             </div>
@@ -123,8 +162,8 @@
         </div>
     </section>
     <section class="section" id="program">
+        <h2 class="section-title">Программа йогамарафона</h2>
         <div class="sm-container">
-            <h2 class="section-title">Программа йогамарафона</h2>
             <ul class="schedule">
                 <li>
                     <span class="time">09:00 – 10:30</span>
@@ -480,7 +519,7 @@
             </form>
         </div>
     </section>
-    <section class="section yellow-section align-c contacts">
+    <section class="section yellow-section align-c contacts" id="contacts">
         <div class="sm-container">
             <h2 class="section-title">Контакты</h2>
             <p>Со всеми вопросами вы можете обратиться к нам по почте
