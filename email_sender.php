@@ -1,5 +1,5 @@
 <?
-    $to = 'in@avatarfest.com.ua';
+    $to = 'tickets@avatarfest.com.ua';
     $subject = $_GET['subject'];
     $message = '
             <html>
