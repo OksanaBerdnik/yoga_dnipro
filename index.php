@@ -510,6 +510,40 @@
         </ul>
     </div>
 </section>
+<section class="section green-section">
+    <div class="container">
+        <h2 class="section-title">Города</h2>
+        <ul class="other-cities flex align-c">
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <h2 class="sm-title">Йога День Киев</h2>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <h2 class="sm-title">Йога День Одесса</h2>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <h2 class="sm-title">Харьков</h2>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <a href="/dnepr" class="sm-title">Днепр</a>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <a href="/odessa" class="sm-title">Одесса</h2></a>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <a href="/lviv" class="sm-title">Львов</h2></a>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <a href="/minsk" class="sm-title">Минск</h2></a>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <h2 class="sm-title">Кишинев</h2>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <h2 class="sm-title">Черновцы</h2>
+            </li>
+        </ul>
+    </div>
+</section>
 <section class="section yellow-section">
     <h2 class="section-title container">Подпишись,чтобы получить памятку участника и программу на почту</h2>
     <div class="sm-container">
