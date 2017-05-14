@@ -579,31 +579,31 @@
         <h2 class="section-title">Партнеры йогамарафона</h2>
         <ul class="container flex list-inline">
             <li>
-                <img src="assets/images/partner1.jpg" alt="Partner">
+                <img src="assets/images/partners/partner1.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner2.jpg" alt="Partner">
+                <img src="assets/images/partners/partner2.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner3.jpg" alt="Partner">
+                <img src="assets/images/partners/partner3.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner4.jpg" alt="Partner">
+                <img src="assets/images/partners/partner4.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner5.jpg" alt="Partner">
+                <img src="assets/images/partners/partner5.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner6.jpg" alt="Partner">
+                <img src="assets/images/partners/partner6.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner7.jpg" alt="Partner">
+                <img src="assets/images/partners/partner7.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner8.jpg" alt="Partner">
+                <img src="assets/images/partners/partner8.jpg" alt="Partner">
             </li>
             <li>
-                <img src="assets/images/partner9.jpg" alt="Partner">
+                <img src="assets/images/partners/partner9.jpg" alt="Partner">
             </li>
         </ul>
     </section>

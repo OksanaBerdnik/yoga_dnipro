@@ -514,31 +514,31 @@
     <div class="container">
         <h2 class="section-title">Города</h2>
         <ul class="other-cities flex align-c">
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/kyiv_day.jpg)">
                 <h2 class="sm-title">Йога День Киев</h2>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/odesa_day.jpg)">
                 <h2 class="sm-title">Йога День Одесса</h2>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/kharkiv.jpg)">
                 <h2 class="sm-title">Харьков</h2>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/dnipro.jpg)">
                 <a href="/dnepr" class="sm-title">Днепр</a>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/odesa.jpg)">
                 <a href="/odessa" class="sm-title">Одесса</h2></a>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/lviv.jpg)">
                 <a href="/lviv" class="sm-title">Львов</h2></a>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/minsk.jpg)">
                 <a href="/minsk" class="sm-title">Минск</h2></a>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/kyshyniv.jpg)">
                 <h2 class="sm-title">Кишинев</h2>
             </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
+            <li class="col-xs-10 col-sm-6 col-md-4" style="background-image: url(assets/images/cities/chernovtsy.jpg)">
                 <h2 class="sm-title">Черновцы</h2>
             </li>
         </ul>
@@ -653,31 +653,31 @@
     <h2 class="section-title">Партнеры йогамарафона</h2>
     <ul class="container flex list-inline">
         <li>
-            <img src="assets/images/partner1.jpg" alt="Partner">
+            <img src="assets/images/partners/partner1.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner2.jpg" alt="Partner">
+            <img src="assets/images/partners/partner2.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner3.jpg" alt="Partner">
+            <img src="assets/images/partners/partner3.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner4.jpg" alt="Partner">
+            <img src="assets/images/partners/partner4.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner5.jpg" alt="Partner">
+            <img src="assets/images/partners/partner5.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner6.jpg" alt="Partner">
+            <img src="assets/images/partners/partner6.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner7.jpg" alt="Partner">
+            <img src="assets/images/partners/partner7.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner8.jpg" alt="Partner">
+            <img src="assets/images/partners/partner8.jpg" alt="Partner">
         </li>
         <li>
-            <img src="assets/images/partner9.jpg" alt="Partner">
+            <img src="assets/images/partners/partner9.jpg" alt="Partner">
         </li>
     </ul>
 </section>
