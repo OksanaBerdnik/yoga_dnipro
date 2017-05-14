@@ -151,7 +151,7 @@
                 </li>
             </ul>
         </div>
-        <a href="#marathon" class="scroll_to_target">
+        <a href="#marathon" class="scroll_to_target_bounce">
             <svg class="bounce">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
             </svg>
