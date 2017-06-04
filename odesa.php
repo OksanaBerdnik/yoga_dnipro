@@ -11,7 +11,7 @@
     <title>Йогамарафон в Одессе</title>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="Йогамарафон в Одессе">
-    <meta name="twitter:url" content="http://marathons.avatarfest.com.ua/odessa"/>
+    <meta name="twitter:url" content="http://marathons.avatarfest.com.ua/odesa"/>
     <meta name="twitter:title" content="Йогамарафон в Одессе">
     <meta name="twitter:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
     <meta name="twitter:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg">
@@ -20,7 +20,7 @@
     <meta property="og:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
     <meta property="og:type" content="article"/>
     <meta property="og:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg"/>
-    <meta property="og:url" content="http://marathons.avatarfest.com.ua/odessa"/>
+    <meta property="og:url" content="http://marathons.avatarfest.com.ua/odesa"/>
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
@@ -216,7 +216,7 @@
         <h2 class="section-title">Мастера</h2>
         <ul class="flex list-inline">
             <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/odessa-masters/master1.jpg" alt="Павел Бублик">
+                <img src="assets/images/odesa-masters/master1.jpg" alt="Павел Бублик">
                 <h3 class="sm-title">Павел Бублик</h3>
                 <span>Киев</span>
                 <p>Образование: философ, преподаватель философских дисциплин (Киевский национальный Университет им.Шевченка), психолог-консультант (Московский Институт гештальта и психодрамы, Киевский Гештальт Университет). Получил второе высшее образование в Национальном университете физического воспитания и спорта, специальность «Физическая реабилитация».</p>
@@ -247,7 +247,7 @@
                 <blockquote>«Мои занятия направлены на интенсивную практику и осознание своего тела в асанах. Бросайте вызов собственному телу вместе со мной.»</blockquote>
             </li>
             <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/odessa-masters/master2.jpg" alt="Дима Яценко">
+                <img src="assets/images/odesa-masters/master2.jpg" alt="Дима Яценко">
                 <h3 class="sm-title">Дима Яценко</h3>
                 <span>Киев</span>
                 <p>Практикую йогу больше 8-ми лет, последние два из которых активно преподаю.</p>
@@ -258,7 +258,7 @@
                 <p>Сертифицированный преподаватель Европейского Йога-Альянса.</p>
             </li>
             <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/odessa-masters/master3.jpg" alt="Алексей Бибиков">
+                <img src="assets/images/odesa-masters/master3.jpg" alt="Алексей Бибиков">
                 <h3 class="sm-title">Алексей Бибиков</h3>
                 <span>Харьков</span>
                 <p>С 2000 года я начал практиковать йогу по книгам. Такие работы, как «Йога восьми кругов» А.Сидерского и «Интегральный тренинг» С.Сидорцова были целеполагающими в моей практики.</p>
@@ -395,10 +395,10 @@
 <section class="section green-section align-c market">
     <h2 class="section-title">Йога Маркет</h2>
     <div class="md-container">
-        <img src="assets/images/odessa-market.jpg" alt="Odessa Yoga Market">
+        <img src="assets/images/odesa-market.jpg" alt="odesa Yoga Market">
         <p>Друзья, в рамках фестиваля
             <a class="underline" href="https://www.facebook.com/events/1838464583036839/" target="_blank">Йогамарафон от Avatar Yoga Festival</a>
-            в Одессе пройдет #OdessaYogaMarket –  – событие, в рамках которого украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя. Форма регистрации для желающих презентовать себя на маркете.</p>
+            в Одессе пройдет #odesaYogaMarket –  – событие, в рамках которого украинские марки йога-товаров, одежды, здорового питания, хендмейда, магазины эзотерических товаров, издания и медиа-проекты смогут представить себя. Форма регистрации для желающих презентовать себя на маркете.</p>
         <p> Регистрация для участников обязательна! <br>
             <a class="underline" href="https://sunriseyogaz.typeform.com/to/MS95We" target="_blank">https://sunriseyogaz.typeform.com/to/MS95We</a>
         </p>
